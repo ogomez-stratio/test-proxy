@@ -1,0 +1,10 @@
+version: '2'
+services:
+  scdproxy:
+      image: scd-proxy
+      container_name: scdproxy
+      hostname: scdproxy
+      ports:
+        - 80:80
+
+

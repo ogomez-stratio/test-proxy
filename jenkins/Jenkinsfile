@@ -1,0 +1,9 @@
+@Library('jenkinslib') _
+
+mavenDockerBuilderPipeline{
+
+  containerName = 'scd-proxy'
+  dockerBuildRepo = ''
+  dockerRcRepo = '127.0.0.1:5000'
+  registryCredentialsId = 'docker-credentials'
+}
